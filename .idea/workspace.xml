@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd50090c-995d-484f-b029-2fe3ed32e196" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Product.java" afterDir="false" />
-    </list>
+    <list default="true" id="fd50090c-995d-484f-b029-2fe3ed32e196" name="Changes" comment="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,11 +71,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697759346819</updated>
-      <workItem from="1697759347823" duration="1121000" />
+      <workItem from="1697759347823" duration="1691000" />
     </task>
+    <task id="LOCAL-00001" summary="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;">
+      <option name="closed" value="true" />
+      <created>1697760496966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697760496966</updated>
+    </task>
+    <task id="LOCAL-00002" summary="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;">
+      <option name="closed" value="true" />
+      <created>1697760669441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697760669441</updated>
+    </task>
+    <task id="LOCAL-00003" summary="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;">
+      <option name="closed" value="true" />
+      <created>1697761049042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697761049042</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;" />
   </component>
 </project>
