@@ -1,6 +1,6 @@
 package application;
 
-import entities.Product;
+import entities.Account;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -11,34 +11,42 @@ public class Program {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
+        Account account;
 
-        Product product = new Product();
-        System.out.println("Enter product data: ");
-        System.out.print("Name: ");
-        product.name = sc.nextLine();
-        System.out.print("Price: ");
-        product.price = sc.nextDouble();
-        System.out.print("Quantity in stock: ");
-        product.quantity = sc.nextInt();
+        System.out.print("Enter account number: ");
+        int number = sc.nextInt();
+        System.out.print("Enter account holder: ");
+        sc.nextLine();
+        String holder = sc.nextLine();
+        System.out.print("Is there an initial deposit (y/n) ? ");
+        char response = sc.next().charAt(0);
+        if (response == 'y' || response == 'Y'){
+            System.out.print("Enter initial deposit value: ");
+            double initialDeposit = sc.nextDouble();
+            account = new Account(number, holder, initialDeposit);
+        }else{
+            account = new Account(number, holder);
+        }
+        System.out.println();
+        System.out.println("Account data: ");
+        System.out.println(account);
 
         System.out.println();
-        System.out.println("Product data: " + product);
+        System.out.print("Enter a deposit value: ");
+        double depositValue = sc.nextDouble();
+        account.deposit(depositValue);
+        System.out.println("Updates account data: ");
+        System.out.println(account);
+
 
         System.out.println();
-        System.out.println("Enter the number of products to be added in stock: ");
-        int quantity = sc.nextInt();
-        product.addProducts(quantity);
-
-        System.out.println();
-        System.out.println("Update data: " + product);
-
-        System.out.println();
-        System.out.println("Enter the number of products to be removed from stock: ");
-        quantity = sc.nextInt();
-        product.removeProducts(quantity);
-
-        System.out.println();
-        System.out.println("Update data: " + product);
+        System.out.print("Enter a withdraw value: ");
+        double withdrawValue = sc.nextDouble();
+        if (withdrawValue != 0){
+        account.withdraw(withdrawValue);
+        }
+        System.out.println("Updates account data: ");
+        System.out.println(account);
 
         sc.close();
     }
