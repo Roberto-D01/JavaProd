@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd50090c-995d-484f-b029-2fe3ed32e196" name="Changes" comment="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;">
+    <list default="true" id="fd50090c-995d-484f-b029-2fe3ed32e196" name="Changes" comment="07/11/2023 - &quot;Construct&quot;">
+      <change afterPath="$PROJECT_DIR$/src/application/ProgramVet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ProgramAlt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ProgramAlt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +49,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Correção-Exercicios",
+    "git-widget-placeholder": "Correcao-exercicio-Vetores",
     "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Proj/ws-intelij/course/src/Main.java",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,6 +110,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-azul-17.0.9-3183f394aec4-cab63407" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -120,6 +130,7 @@
       <workItem from="1699134653614" duration="1938000" />
       <workItem from="1699195520131" duration="945000" />
       <workItem from="1699369081166" duration="7254000" />
+      <workItem from="1703065554735" duration="793000" />
     </task>
     <task id="LOCAL-00001" summary="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;">
       <option name="closed" value="true" />
