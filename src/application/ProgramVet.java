@@ -13,6 +13,7 @@ public class ProgramVet {
 
         System.out.println("How many rooms will be rented? ");
         Rent r = new Rent("Maria","maria@gmail.com");
+        System.out.println();
 
         sc.close();
     }
