@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd50090c-995d-484f-b029-2fe3ed32e196" name="Changes" comment="07/11/2023 - &quot;Construct&quot;">
+    <list default="true" id="fd50090c-995d-484f-b029-2fe3ed32e196" name="Changes" comment="26/01/2024 - &quot;Rents&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ProgramVet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ProgramVet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Rent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,12 @@
     </option>
   </component>
   <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="Roberto-D01" />
+        <option name="repository" value="JavaProd" />
+      </RepoCoordinatesHolder>
+    </option>
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="94a6af29-c090-480c-9169-0575e790475f" />
@@ -154,7 +158,8 @@
       <workItem from="1703627053112" duration="659000" />
       <workItem from="1703711969124" duration="3244000" />
       <workItem from="1706227488490" duration="1016000" />
-      <workItem from="1706260650723" duration="1078000" />
+      <workItem from="1706260650723" duration="1279000" />
+      <workItem from="1706570776948" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;">
       <option name="closed" value="true" />
@@ -188,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697761339157</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="26/01/2024 - &quot;Rents&quot;">
+      <option name="closed" value="true" />
+      <created>1706261845180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706261845180</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +221,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="07/11/2023 - &quot;Construct&quot;" />
     <MESSAGE value="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;" />
+    <MESSAGE value="26/01/2024 - &quot;Rents&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="26/01/2024 - &quot;Rents&quot;" />
   </component>
 </project>
