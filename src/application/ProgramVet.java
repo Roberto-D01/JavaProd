@@ -2,6 +2,7 @@ package application;
 
 import entities.Rent;
 
+import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -21,6 +22,12 @@ public class ProgramVet {
 
         for (int i = 1; i<=n; i++){
             System.out.println("Rent #" + i + ":");
+            System.out.print("Name: ");
+            sc.nextLine();
+            String name = sc.nextLine();
+            System.out.print("Email: ");
+            String email = sc.next();
+            Rent rent = new Rent(name, email);
         }
 
         sc.close();
