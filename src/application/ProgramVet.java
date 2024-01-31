@@ -27,7 +27,14 @@ public class ProgramVet {
             String name = sc.nextLine();
             System.out.print("Email: ");
             String email = sc.next();
-            Rent rent = new Rent(name, email);
+            System.out.println("Room: ");
+            int roomNumber = sc.nextInt();
+
+            vect[roomNumber] = new Rent(name, email);
+        }
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(vect[i]);
         }
 
         sc.close();
