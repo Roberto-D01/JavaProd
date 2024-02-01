@@ -21,6 +21,7 @@ public class ProgramVet {
         System.out.println();
 
         for (int i = 1; i<=n; i++){
+            System.out.println();
             System.out.println("Rent #" + i + ":");
             System.out.print("Name: ");
             sc.nextLine();
@@ -33,8 +34,12 @@ public class ProgramVet {
             vect[roomNumber] = new Rent(name, email);
         }
 
+        System.out.println();
+        System.out.println("Bussy rooms: ");
         for (int i = 0; i < 10; i++) {
-            System.out.println(vect[i]);
+            if (vect[i] != null) {
+                System.out.println(i + ": " + vect[i]);
+            }
         }
 
         sc.close();
