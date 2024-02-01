@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd50090c-995d-484f-b029-2fe3ed32e196" name="Changes" comment="26/01/2024 - &quot;Rents&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ProgramVet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ProgramVet.java" afterDir="false" />
-    </list>
+    <list default="true" id="fd50090c-995d-484f-b029-2fe3ed32e196" name="Changes" comment="26/01/2024 - &quot;Rents&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +45,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -177,7 +177,7 @@
       <workItem from="1706260650723" duration="1279000" />
       <workItem from="1706570776948" duration="1538000" />
       <workItem from="1706660090341" duration="240000" />
-      <workItem from="1706737607879" duration="321000" />
+      <workItem from="1706737607879" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="19/10/2023 - &quot;Começando a resolver um segundo problema exemplo&quot;">
       <option name="closed" value="true" />
